@@ -34,6 +34,8 @@ public class playerMovement : MonoBehaviour
     //bool to determine if grounded is true or not
     bool isGrounded;
 
+    
+
     // Update is called once per frame
     void Update()
     {
@@ -69,5 +71,7 @@ public class playerMovement : MonoBehaviour
 
         //moves player based on the vector, speed and the delta time
         controller.Move(velocity * Time.deltaTime);
+
+        
     }
 }
