@@ -13,16 +13,16 @@ public class Score : MonoBehaviour
 
     private void Start()
     {
-        scoreCount = 1; 
+        scoreCount = 0; 
     }
 
     void Update()
     {
-        score.text = "Lap " + Mathf.Round(scoreCount);
+        score.text = "Lap " + Mathf.Round(scoreCount + 1);
 
 
 
-        if (scoreCount == 3)
+        if (scoreCount >= 3)
         {
             SceneManager.LoadScene("Win");
         }
