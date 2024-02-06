@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,6 +16,7 @@ public class Laps : MonoBehaviour
     public AudioSource source;
     public AudioClip hazardClip;
     public AudioClip healClip;
+    public AudioClip lapClip;
 
     public string targetSceneName;
 
@@ -46,7 +48,7 @@ public class Laps : MonoBehaviour
         if (!isColliding && other.CompareTag("Finish"))
         {
             lap();
-
+            source.PlayOneShot(lapClip);
             isColliding = true;
             
             lastCollide = Time.time;

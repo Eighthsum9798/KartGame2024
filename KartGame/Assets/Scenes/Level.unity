@@ -12926,7 +12926,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.519
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -13464,9 +13464,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bf72269fb30066c44b50acb99a26f2dd, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.655
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -14215,8 +14215,9 @@ MonoBehaviour:
   currentHealth: 0
   healthBar: {fileID: 475279521}
   source: {fileID: 738496187}
-  hazardClip: {fileID: 8300000, guid: 75fcda6bb2b10774192659a402984f1a, type: 3}
+  hazardClip: {fileID: 8300000, guid: 8cadc48a6d8be2241981f0bca071b002, type: 3}
   healClip: {fileID: 8300000, guid: ffb58eb921606eb47bb75088071e0a54, type: 3}
+  lapClip: {fileID: 8300000, guid: 65ad0d4e8c453b143b09a50e440d3ac5, type: 3}
   targetSceneName: GameOver
 --- !u!114 &1783859690
 MonoBehaviour:
