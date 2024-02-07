@@ -4,12 +4,19 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class Score : MonoBehaviour
 {
     public Text score;
 
     public static int scoreCount;
+
+    public Timer timer;
+
+
+    
+    
 
     private void Start()
     {
@@ -24,6 +31,8 @@ public class Score : MonoBehaviour
 
         if (scoreCount >= 3)
         {
+            
+            
             SceneManager.LoadScene("Win");
         }
             

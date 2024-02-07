@@ -20,6 +20,8 @@ public class Laps : MonoBehaviour
 
     public string targetSceneName;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -96,7 +98,17 @@ public class Laps : MonoBehaviour
 
     public void heal(int heal)
     {
-        currentHealth += heal;
+
+        if (currentHealth + heal > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+
+        else
+        {
+            currentHealth += heal;
+        }
+        //currentHealth += heal;
         healthBar.SetHealth(currentHealth);
     }
     
