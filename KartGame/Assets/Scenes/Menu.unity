@@ -349,6 +349,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2513323295769123206, guid: 2fd09af610636df468987decf0a1ae65, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08a13b743c47cd3409c50af304f866db, type: 2}
     - target: {fileID: 919132149155446097, guid: 2fd09af610636df468987decf0a1ae65, type: 3}
       propertyPath: m_Name
       value: Kart model 1 export (1)
@@ -1728,6 +1732,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2513323295769123206, guid: 2fd09af610636df468987decf0a1ae65, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08a13b743c47cd3409c50af304f866db, type: 2}
     - target: {fileID: 919132149155446097, guid: 2fd09af610636df468987decf0a1ae65, type: 3}
       propertyPath: m_Name
       value: Kart model 1 export
