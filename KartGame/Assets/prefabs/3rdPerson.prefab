@@ -245,9 +245,9 @@ MonoBehaviour:
   currentHealth: 0
   healthBar: {fileID: 1114010652643539422}
   source: {fileID: 1138592464440945984}
-  hazardClip: {fileID: 8300000, guid: 8cadc48a6d8be2241981f0bca071b002, type: 3}
-  healClip: {fileID: 8300000, guid: ffb58eb921606eb47bb75088071e0a54, type: 3}
-  lapClip: {fileID: 8300000, guid: 65ad0d4e8c453b143b09a50e440d3ac5, type: 3}
+  hazardClip: {fileID: 8300000, guid: 3e6797db2da769243a6d975f2d635b9d, type: 3}
+  healClip: {fileID: 8300000, guid: ee1eb031f6ea5c143ab2af524018a3d5, type: 3}
+  lapClip: {fileID: 8300000, guid: a98b2e272846650448d1adc0b9ab6d3b, type: 3}
   targetSceneName: GameOver
 --- !u!114 &2439286903414380951
 MonoBehaviour:
