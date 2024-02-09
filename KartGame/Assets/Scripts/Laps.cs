@@ -13,6 +13,7 @@ public class Laps : MonoBehaviour
     public int currentHealth;
     public HealthBar healthBar;
 
+    //stores audio source and clips
     public AudioSource source;
     public AudioClip hazardClip;
     public AudioClip healClip;
